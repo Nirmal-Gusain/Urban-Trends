@@ -4,7 +4,7 @@
 
 .herobg {
     position: relative;
-    height: 100vh;
+    height: 87vh;
     width: 100%;
     overflow: hidden; /* Ensures the pseudo-element does not overflow */
 }
@@ -12,13 +12,13 @@
 .herobg::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -5px;
+    left: -5px;
+    width: 101%;
+    height: 101%;
     background-image: url(./Components/assets/hero_image.png);
     background-position: center;
-    background-size: contain;
+    background-size:contain;
     filter: blur(5px); /* Adjust the blur value */
     z-index: -1; /* Ensure it stays behind content */
 }
