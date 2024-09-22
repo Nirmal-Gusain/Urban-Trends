@@ -14,7 +14,7 @@ function Hero() {
           sapiente dolorem maxime ipsa, quibusdam temporibus animi odit nemo
           dicta quos quae autem tempore pariatur.
         </p>
-        <Link to={"/mens"}><button className="bg-white text-black px-6 py-1 relative left-[270px] rounded-full mt-10 text-xl flex items-center gap-2">See What's New <MdOutlineArrowRightAlt size={30} /></button></Link>
+        <Link to={"/mens"}><button className="bg-white text-black hover:scale-105 duration-200 px-6 py-1 relative left-[270px] rounded-full mt-10 text-xl flex items-center gap-2">See What's New <MdOutlineArrowRightAlt size={30} /></button></Link>
         
       </div>
     </div>

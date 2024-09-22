@@ -7,7 +7,7 @@ function Navbar() {
   const [Menu, SetMenu] = useState("Shop");
   return (
     <div className="flex items-center justify-between px-10 py-4 bg-[#175676] font-mono border-b-2">
-      <img className=" w-72" src={Logo} alt="" />
+      <img className=" w-72 invert" src={Logo} alt="" />
       <div>
         <ul className="flex gap-8">
           <li className="text-lg text-white" onClick={() => SetMenu("Shop")}><Link to={'/'}>Home</Link>
