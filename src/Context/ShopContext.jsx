@@ -5,8 +5,8 @@ export const ShopContext = createContext(null);
 
 const ShopContextProvider = (props) => {
   const contextValue = { all_product };
-  return <ShopContextProvider valur = {contextValue}>
+  return <ShopContext.Provider value = {contextValue}>
     {props.children}
-    </ShopContextProvider>;
+    </ShopContext.Provider>;
 };
 export default ShopContextProvider

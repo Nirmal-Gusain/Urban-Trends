@@ -19,12 +19,13 @@ function Footer() {
           <li>Contact</li>
         </ul>
       </div>
-      <div className="flex  gap-6">
-        <img src={WhatsappImg} className="invert" alt="" />
-        <img src={InstagramImg} className="invert" alt="" />
-        <img src={PintesterImg} className="invert" alt="" />
+      <div className="flex  gap-7 ">
+        <img src={WhatsappImg} className="invert border-black border-[2px] rounded-md p-2" alt="" />
+        <img src={InstagramImg} className="invert border-black border-[2px] rounded-md p-2" alt="" />
+        <img src={PintesterImg} className="invert border-black border-[2px] rounded-md p-2" alt="" />
       </div>
-      <div><p>Copyright © 2024 - All Rights Reserved</p></div>
+      <hr className="bg-white border-none h-[1px] w-full"/>
+      <div className=""><p>Copyright © 2024 - All Rights Reserved</p></div>
     </div>
   );
 }
