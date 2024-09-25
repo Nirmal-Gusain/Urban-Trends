@@ -20,7 +20,7 @@ function LoginSignup() {
             I have read <span className="text-blue-600">Terms & Conditions</span> and agree
           </p>
         </div>
-      </div>
+      </div> 
     </div>
   );
 }
